@@ -29,6 +29,16 @@ h3 {
     font-size: 1.5rem;
 }
 
+p {
+    font-size: 1.3rem;
+    line-height: 1.1;
+    margin: 0.75rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
 /* Nav */
 
 #logo {
