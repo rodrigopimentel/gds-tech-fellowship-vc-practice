@@ -37,6 +37,7 @@ h3 {
 
 .topnav a {
     display: inline-block;
+.topnav a{
     text-align: center;
     color: #F4F4F6;
     font-size: 1.5rem;
