@@ -34,13 +34,13 @@ h3 {
 .top
   {
     overflow: hidden;
-    background-color: rgb(189, 104, 104);
+    background-color: rgb(38, 38, 38);
 }
 
 .topnav a{
     float: center;
     display: block;
-    color: black;
+    color: rgb(247, 191, 191);
     text-align: center;
     padding: 14px;
     text-decoration: none;
