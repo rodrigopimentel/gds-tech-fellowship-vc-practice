@@ -59,6 +59,7 @@ h3 {
 
 .sticky + .content {
     padding-top: 60px;
+}
 
 /* Website Hero */
 
@@ -81,3 +82,4 @@ hero-banner {
     color: #ffffff;
     width: 100%;
     padding: 3rem 0;
+}
