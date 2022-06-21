@@ -33,6 +33,7 @@ h3 {
 
 #logo {
     font-family: 'Dancing Script', cursive;
+    text-shadow: 0.2rem 0.3rem 0.5rem #000000;
     font-size: 2.5rem;
 }
 
@@ -45,16 +46,32 @@ header {
     padding: 2rem;
 }
 
-.topnav a {
+nav > ul > li {
+    display: inline;
+}
+
+nav a {
     text-align: center;
     color: #F4F4F6;
     font-size: 1.5rem;
     padding: 1.16rem;
     text-decoration: none;
+    transition: color 0.1s ease-out;
 }
 
-.content {
-    padding: 1.33rem;
+nav a:hover {
+    color: #DEBAC0;
+    transition: color 0.1s ease-in;
+}
+
+.active {
+    background-color: #C47AC0;
+    border-radius: 1.2rem;
+}
+
+.active:hover {
+    color: #2F323A;
+    background-color: #DEBAC0;
 }
 
 /* Website Hero */
