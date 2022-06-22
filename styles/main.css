@@ -26,7 +26,21 @@ h2 {
 
 h3 {
     display: block;
+    margin: 0.75rem;
     font-size: 1.5rem;
+}
+
+h4 {
+    display: block;
+    margin: 0.75rem;
+}
+
+a { 
+    color: #F4F4F6;
+}
+
+a:hover { 
+    text-decoration: none;
 }
 
 p {
@@ -164,6 +178,14 @@ floral-item:hover {
     border-radius: 0 1.5rem 1.5rem 0;
 }
 
+#licenses {
+    margin: 0 0 10rem 0;
+}
+
+license-item > h3 {
+    margin: 2rem 0.75rem 0 0.75rem;
+}
+
 /* Footer */
 
 footer {
@@ -178,4 +200,12 @@ footer {
 
 footer img {
     height: 5rem;
+}
+
+footer a {
+    color: #F4F4F6;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
