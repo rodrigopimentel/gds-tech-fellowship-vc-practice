@@ -163,3 +163,19 @@ floral-item:hover {
     background-image: url('../img/poppy.jpg');
     border-radius: 0 1.5rem 1.5rem 0;
 }
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    border-top: 1px solid #F4F4F6;
+    padding-top: 2em;
+}
+
+footer img {
+    height: 5rem;
+}
