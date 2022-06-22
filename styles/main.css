@@ -29,6 +29,16 @@ h3 {
     font-size: 1.5rem;
 }
 
+p {
+    font-size: 1.3rem;
+    line-height: 1.1;
+    margin: 0.75rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
 /* Nav */
 
 #logo {
@@ -104,5 +114,68 @@ main {
 }
 
 section {
-    margin: 2rem 1.16rem;
+    margin: 10rem 0;
+}
+
+floral-display {
+    display: flex;
+    justify-content: space-around;
+    height: 25rem;
+}
+
+floral-item {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0.2rem 0.3rem 0.3rem #000000;
+    transition: flex-basis 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+floral-item:hover {
+    flex-basis: 30%;
+    cursor: pointer;
+    transition: flex-basis 0.6s cubic-bezier(0.32, 0, 0.67, 0);
+}
+
+#roses {
+    background-image: url('../img/roses.jpg');
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+#daisies {
+    background-image: url('../img/daisies.jpg');
+}
+
+#tulips {
+    background-image: url('../img/tulips.jpg');
+    background-position: left;
+}
+
+#carnations {
+    background-image: url('../img/carnation.jpg');
+    background-position: center;
+}
+
+#poppies {
+    background-image: url('../img/poppy.jpg');
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 2em auto;
+    border-top: 1px solid #F4F4F6;
+    padding-top: 2em;
+}
+
+footer img {
+    height: 5rem;
 }
